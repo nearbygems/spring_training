@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component
 @Component
 @Aspect
 class MyLogger {
-  @Pointcut("execution(* ru.javabegin.training.spring.aop.objects.Manager.*(..))")
+  @Pointcut("execution(* kz.training.spring.aop.objects.Manager.*(..))")
   private fun allMethods() {
   }
 
