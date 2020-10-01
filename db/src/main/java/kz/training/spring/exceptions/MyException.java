@@ -11,7 +11,6 @@ public class MyException extends DataAccessException {
 
 	public MyException(String msg) {
 		super(msg);
-		// TODO Auto-generated constructor stub
 	}
 
 }
